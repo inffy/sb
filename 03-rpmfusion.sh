@@ -11,8 +11,8 @@ https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E 
 
 echo "Lets make rpmfusion repos work better with rebase"
 rpm-ostree update \
-    --uninstall rpmfusion-free-release-36-1.noarch \
-    --uninstall rpmfusion-nonfree-release-36-1.noarch \
+    --uninstall rpmfusion-free-release-37-0.2.noarch \
+    --uninstall rpmfusion-nonfree-release-37-0.2.noarch \
     --install rpmfusion-free-release \
     --install rpmfusion-nonfree-release
 
