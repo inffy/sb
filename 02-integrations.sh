@@ -22,4 +22,24 @@ current_profile=$(dconf list /org/gnome/terminal/legacy/profiles:/ | head -n1)
 dconf write /org/gnome/terminal/legacy/profiles:/${current_profile}use-system-font false
 dconf write /org/gnome/terminal/legacy/profiles:/${current_profile}font "'UbuntuMono Nerd Font 12'"
 
+# Make distrobox images and shortcuts
+# Thanks @89luca89
+# This isn't idempotent!
+# So if you mess this up run `dconf reset -f /org/gnome/terminal/legacy/profiles:/`
+# to reset the profiles back to default
+
+# Lets be brave and use Fedora rawhide
+distrobox-create -Y -i registry.fedoraproject.org/fedora-toolbox:rawhide --name fedora-tb
+
+# also create Arch distrobox
+distrobox-create -Y -i docker.io/library/archlinux:latest --name arch-tb
+
+# Add keyb shortcuts to Gnome
+echo "Creating shortcuts for the Fedora distrobox"
+
+./bits/distrobox-terminal-profile.sh -n fedora-tb -c fedora-tb -s "<Primary><Alt>f"
+
+echo "Creating shortcuts for Arch distrobox"
+./bits/distrobox-terminal-profile.sh -n arch-tb -c arch-tb -s "<Primary><Alt>a"
+
 echo "Done!"
