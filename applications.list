@@ -1,0 +1,64 @@
+# Gnome apps
+org.gnome.TextEditor
+org.gnome.Evince
+org.gnome.eog
+org.gnome.Cheese
+org.gnome.SoundRecorder
+org.gnome.Calendar
+org.gnome.baobab
+org.gnome.Firmware
+org.gnome.Boxes
+
+
+# Default-y apps
+#
+org.gustavoperedo.FontDownloader
+org.mozilla.firefox
+org.freedesktop.Platform.ffmpeg-full
+com.github.tchx84.Flatseal
+com.mattjakeman.ExtensionManager
+org.gnome.Evolution
+org.onlyoffice.desktopeditors
+org.mozilla.Thunderbird
+org.freedesktop.Platform.GStreamer.gstreamer-vaapi
+org.gtk.Gtk3theme.adw-gtk3-dark
+org.freedesktop.Platform.openh264
+org.gnome.Firmware
+
+# Browsers
+com.google.Chrome
+com.microsoft.Edge
+
+# Gaming and Streaming Specific
+com.discordapp.Discord
+com.obsproject.Studio
+com.obsproject.Studio.Plugin.Gstreamer
+com.valvesoftware.Steam
+org.freedesktop.Platform.VulkanLayer.MangoHud
+org.freedesktop.Platform.GStreamer.gstreamer-vaapi
+org.freedesktop.Platform.VulkanLayer.OBSVkCapture
+com.valvesoftware.Steam.Utility.gamescope
+com.usebottles.bottles
+com.heroicgameslauncher.hgl
+net.davidotek.pupgui2
+com.github.Matoking.protontricks
+net.lutris.Lutris
+
+# Other goodies
+com.belmoussaoui.Obfuscate
+sh.cider.Cider
+com.slack.Slack
+de.haeckerfelix.Fragments
+org.audacityteam.Audacity
+org.gimp.GIMP
+org.inkscape.Inkscape
+org.kde.krita
+org.videolan.VLC
+org.telegram.desktop
+com.irccloud.desktop
+org.filezillaproject.Filezilla
+io.github.mimbrero.WhatsAppDesktop
+io.github.shiftey.Desktop
+im.riot.Riot
+org.gnome.World.PikaBackup
+tv.plex.PlexDesktop

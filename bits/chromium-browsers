@@ -1,0 +1,9 @@
+#!/bin/bash
+# Convenience stuff for browsers
+
+BITS=../bits
+source $BITS/common
+
+# Adjust flatpak permissions so PWAs work on chromium-based browsers
+flatpak override --user --filesystem=~/.local/share/applications --filesystem=~/.local/share/icons com.google.Chrome
+flatpak override --user --filesystem=~/.local/share/applications --filesystem=~/.local/share/icons com.microsoft.Edge
