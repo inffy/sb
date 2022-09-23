@@ -9,7 +9,7 @@ dconf write /org/gnome/shell/disable-user-extensions "false"
 
 gnome-extensions disable background-logo@fedorahosted.org
 
-dconf write /org/gnome/shell/favorite-apps "['org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Evolution.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'com.onepassword.OnePassword.desktop', 'com.discordapp.Discord.desktop', 'org.telegram.desktop.desktop', 'com.irccloud.desktop.desktop', 'com.github.eneshecan.WhatsAppForLinux.desktop', 'org.filezillaproject.Filezilla.desktop', 'org.onlyoffice.desktopeditors.desktop', 'sh.cider.Cider.desktop', 'io.github.shiftey.Desktop.desktop']"
+dconf write /org/gnome/shell/favorite-apps "['org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Evolution.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'com.onepassword.OnePassword.desktop', 'com.discordapp.Discord.desktop', 'org.telegram.desktop.desktop', 'com.irccloud.desktop.desktop', 'com.github.eneshecan.WhatsAppForLinux.desktop', 'im.riot.Riot.desktop', 'com.slack.Slack.desktop', 'org.filezillaproject.Filezilla.desktop', 'org.onlyoffice.desktopeditors.desktop', 'sh.cider.Cider.desktop', 'io.github.shiftey.Desktop.desktop', 'com.google.Chrome.desktop']"
 
 echo "Change to Projects dir"
 cd ~/Projects
@@ -20,4 +20,6 @@ wget -qO- https://git.io/papirus-icon-theme-install | DESTDIR="$HOME/.icons" sh
 echo "Installing oh my bash"
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
-echo "Fixed, now reboot"
+
+
+
