@@ -29,7 +29,7 @@ dconf write /org/gnome/terminal/legacy/profiles:/${current_profile}font "'Ubuntu
 # to reset the profiles back to default
 
 # Lets be brave and use Fedora rawhide
-distrobox-create -Y -i registry.fedoraproject.org/fedora-toolbox:rawhide --name fedora-tb
+distrobox-create -Y -i quay.io/fedora/fedora:rawhide --name fedora-tb
 
 # also create Arch distrobox
 distrobox-create -Y -i docker.io/library/archlinux:latest --name arch-tb
