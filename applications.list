@@ -57,7 +57,7 @@ org.videolan.VLC
 org.telegram.desktop
 com.irccloud.desktop
 org.filezillaproject.Filezilla
-com.github.eneshecan.WhatsAppForLinux
+io.github.mimbrero.WhatsAppDesktop
 io.github.shiftey.Desktop
 im.riot.Riot
 org.gnome.World.PikaBackup
