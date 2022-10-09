@@ -8,6 +8,9 @@ org.gnome.Calendar
 org.gnome.baobab
 org.gnome.Firmware
 org.gnome.Boxes
+org.gnome.NautilusPreviewer 
+org.gnome.Calculator
+org.gnome.font-viewer
 
 
 # Default-y apps
@@ -17,7 +20,6 @@ org.mozilla.firefox
 org.freedesktop.Platform.ffmpeg-full
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
-org.gnome.Evolution
 org.onlyoffice.desktopeditors
 org.mozilla.Thunderbird
 org.freedesktop.Platform.GStreamer.gstreamer-vaapi
