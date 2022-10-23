@@ -17,15 +17,15 @@ org.gnome.font-viewer
 #
 org.gustavoperedo.FontDownloader
 org.mozilla.firefox
-org.freedesktop.Platform.ffmpeg-full
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 org.onlyoffice.desktopeditors
 org.mozilla.Thunderbird
-org.freedesktop.Platform.GStreamer.gstreamer-vaapi
 org.gtk.Gtk3theme.adw-gtk3-dark
 org.freedesktop.Platform.openh264
 org.gnome.Firmware
+org.freedesktop.Platform.ffmpeg-full//22.08
+org.freedesktop.Platform.GStreamer.gstreamer-vaapi//22.08
 
 # Browsers
 com.google.Chrome
