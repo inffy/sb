@@ -95,7 +95,7 @@ DCONF_PROFILE="$DCONF_PROFILE
 background-color='rgb(32,32,32)'
 bold-is-bright=true
 custom-command='$(command -v distrobox-enter) -n $CONTAINER_NAME'
-font='UbuntuMono Nerd Font 12'
+font='MesloLGS NF 10'
 foreground-color='rgb(255,255,255)'
 scrollbar-policy='never'
 use-custom-command=true
@@ -117,7 +117,7 @@ DCONF_KEYS="$DCONF_KEYS
 
 [custom-keybindings/custom$KEYS_INDEX]
 binding='$KEYS_SHORTCUT'
-command='gnome-terminal --tab-with-profile=$PROFILE_NAME'
+command='gnome-terminal --profile=$PROFILE_NAME'
 name='Gnome Terminal - $PROFILE_NAME'
 "
 
