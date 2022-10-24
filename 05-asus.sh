@@ -9,7 +9,7 @@ sudo systemctl enable --now supergfxd
 cd ~/Projects
 
 # clone the asus misc stuff repo
-git clone https://gitlab.com/inffy/g14-2022
+git clone https://github.com/inffy/g14-2022
 
 cd g14-2022
 
