@@ -12,12 +12,6 @@ source $BITS/common
 echo "Installing the asus-linux repo..."
 sudo cp asus-linux.repo /etc/yum.repos.d/
 
-# Remove the useless fedora flatpak repo
-echo "Removing flatpaks"
-flatpak remove --all
-echo "remove fedora flatpak repo"
-flatpak remote-delete fedora
-
 # Flathub
 echo "Enabling FlatHub.."
 flatpak remote-modify --enable flathub
