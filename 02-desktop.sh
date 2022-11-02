@@ -20,9 +20,13 @@ cd ~/Projects
 # Install papirus-icon-theme
 wget -qO- https://git.io/papirus-icon-theme-install | DESTDIR="$HOME/.icons" sh
 
-echo "Installing oh my bash"
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+echo "Install nord theme for Gnome-terminal"
+cd ~/Projects
+git clone https://github.com/arcticicestudio/nord-gnome-terminal.git
+cd nord-gnome-terminal/src
 
+echo "Installing to default profile"
+./nord.sh -p default
 
 
 
