@@ -29,7 +29,7 @@ echo "Installing to default profile"
 ./nord.sh -p default
 
 echo "Switch using ZSH instead of bash"
-cd –/Projects
+cd ~/Projects
 
 echo "Clone the dotfiles"
 git clone https://github.com/inffy/dotfiles
@@ -43,7 +43,7 @@ cd zsh
 
 echo "Copy zsh and p10k configs to home"
 cp .zshrc ~/
-cp .p10k.zsh
+cp .p10k.zsh ~/
 
 echo "change shell to zsh"
 sudo usermod -s /bin/zsh juha
