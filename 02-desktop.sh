@@ -66,5 +66,4 @@ current_profile=$(dconf list /org/gnome/terminal/legacy/profiles:/ | head -n1)
 dconf write /org/gnome/terminal/legacy/profiles:/${current_profile}use-system-font false
 dconf write /org/gnome/terminal/legacy/profiles:/${current_profile}font "'MesloLGS NF 10'"
 
-
-
+echo "Done, please reboot!"
