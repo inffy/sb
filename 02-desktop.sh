@@ -18,7 +18,7 @@ echo "Change to Projects dir"
 cd ~/Projects
 
 # Install papirus-icon-theme
-wget -qO- https://git.io/papirus-icon-theme-install | DESTDIR="$HOME/.icons" sh
+wget -qO- https://git.io/papirus-icon-theme-install | DESTDIR="$HOME/.local/icons" sh
 
 echo "Install nord theme for Gnome-terminal"
 cd ~/Projects
