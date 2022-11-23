@@ -8,6 +8,7 @@ source $BITS/common
 
 # Enable flathub
 echo "Adding Flathub repo"
+flatpak remote-modify --enable flathub
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Reinstall all the flatpaks from the fedora repo, so that they get installed from flathub
