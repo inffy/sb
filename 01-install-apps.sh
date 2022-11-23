@@ -12,11 +12,8 @@ source $BITS/common
 echo "Installing the asus-linux repo..."
 sudo cp asus-linux.repo /etc/yum.repos.d/
 
-# Flathub
-echo "Enabling FlatHub.."
-flatpak remote-modify --enable flathub
+# Installing flatpaks
 echo "Installing Flatpak(s)..."
-flatpak_install_remote flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak_install flathub applications.list
 
 # Configure Flatpak automatic upgrades
