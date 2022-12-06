@@ -16,7 +16,7 @@ set -eux
 distrobox-create -Y -i fedora:37 --name fedora-tb
 
 # also create Arch distrobox
-distrobox-create -Y -i docker.io/library/archlinux:latest --name arch-tb
+distrobox-create -Y -i docker.io/library/alpine:latest --name alpine-tb
 
 # Add keyb shortcuts to Gnome
 echo "Creating shortcuts for the Fedora distrobox"
@@ -24,6 +24,6 @@ echo "Creating shortcuts for the Fedora distrobox"
 ./bits/distrobox-terminal-profile.sh -n fedora-tb -c fedora-tb -s "<Primary><Alt>f"
 
 echo "Creating shortcuts for Arch distrobox"
-./bits/distrobox-terminal-profile.sh -n arch-tb -c arch-tb -s "<Primary><Alt>a"
+./bits/distrobox-terminal-profile.sh -n alpine-tb -c alpine-tb -s "<Primary><Alt>a"
 
 echo "Done!"
