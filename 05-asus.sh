@@ -14,7 +14,8 @@ git clone https://github.com/inffy/g14-2022
 cd g14-2022
 
 echo "Installing scripts.."
-sudo ./install
+pkexec ./install
+#sudo ./install
 
 # Move the asusd profile.conf to right place
 echo "Moving asusd fan curve profile to the correct place"
